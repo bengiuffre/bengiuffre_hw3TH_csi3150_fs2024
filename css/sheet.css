@@ -1,0 +1,223 @@
+/* General page setup */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../assets/image/italy1.jpg') no-repeat center center/cover;
+    color: #f4ce42;
+    position: relative; /* Added this to position arrow relative to header */
+    height: 50vh; /* Full screen height */
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 36px;
+}
+
+.downarrow1 {
+    position: absolute;
+    bottom: 20px; /* Adjust this as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.downarrow1 img {
+    width: 100px;
+    height: auto;
+}
+
+
+section {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../assets/image/italy2.jpg') no-repeat center center/cover;
+    color: #f4ce42;
+    position: relative; /* Added this to position arrow relative to header */
+    height: 30vh; /* Full screen height */
+}
+
+article {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../assets/image/italy3.jfif') no-repeat center center/cover;
+    color: #f4ce42;
+    position: relative; /* Added this to position arrow relative to header */
+    height: 50vh; /* Full screen height */
+}
+
+.ItalyInfo p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #fff;
+}
+
+.button1 {
+    background-color: #f4ce42;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section3 {
+
+    background-color: #131313;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.thingstodo h2 {
+    font-size: 28px;
+    color: #f4ce42;
+    margin-bottom: 40px;
+}
+
+.image1, .image2, .image3 {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.image1 img, .image2 img, .image3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.image1 h3, .image2 h3, .image3 h3 {
+    font-size: 18px;
+    color: #f4ce42;
+}
+
+.button2 {
+    background-color: #f4ce42;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+/* Rome Section */
+section4 {
+    background: url('assets/image/italy4.jfif') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section4 h2 {
+    color: #f4ce42;
+    font-size: 30px;
+}
+
+section4 p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #fff;
+}
+
+section4 h3 {
+    font-size: 24px;
+    color: #f4ce42;
+    margin-top: 30px;
+}
+
+section5 {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+section5 h3 {
+    color: #f4ce42;
+    font-size: 24px;
+}
+
+section5 p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Review Section */
+section6 {
+    background: url('assets/image/italy6.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.Review {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.Review img {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.Review p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.Review h3 {
+    color: #f4ce42;
+    font-size: 24px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    background-color: #f4ce42;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
