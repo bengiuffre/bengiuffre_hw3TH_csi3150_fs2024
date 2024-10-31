@@ -1,7 +1,12 @@
 /* General page setup */
+/* import font */
+
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     background-color: #000;
 }
@@ -9,21 +14,24 @@ body {
 header {
     text-align: center;
     padding: 100px 20px;
-    background: url('../assets/image/italy1.jpg') no-repeat center center/cover;
+    background: url('../assets/image/testimage1.jpg') no-repeat center center/cover;
     color: #f4ce42;
-    position: relative; /* Added this to position arrow relative to header */
-    height: 50vh; /* Full screen height */
+    position: relative; 
+    height: 80vh; 
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 100px;
     margin-bottom: 10px;
+    
 }
 
 header h2 {
     font-size: 36px;
 }
 
+
+/* arrow setup */
 .downarrow1 {
     position: absolute;
     bottom: 20px; /* Adjust this as needed */
@@ -40,26 +48,28 @@ header h2 {
 section {
     text-align: center;
     padding: 100px 20px;
-    background: url('../assets/image/italy2.jpg') no-repeat center center/cover;
-    color: #f4ce42;
+    background: url('../assets/image/italian2.jpg') no-repeat center center/cover;
+    color: #ffffff;
     position: relative; /* Added this to position arrow relative to header */
-    height: 30vh; /* Full screen height */
+    height: 45vh; /* Full screen height */
 }
 
+/* article section */
 article {
     text-align: center;
     padding: 100px 20px;
-    background: url('../assets/image/italy3.jfif') no-repeat center center/cover;
+    background: url('../assets/image/testimage3.jpg') no-repeat center center/cover;
     color: #f4ce42;
-    position: relative; /* Added this to position arrow relative to header */
-    height: 50vh; /* Full screen height */
+    position: relative; 
+    height: 80vh; 
 }
 
 .ItalyInfo p {
     max-width: 800px;
     margin: 20px auto;
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
+    font-style: bold;
 }
 
 .button1 {
@@ -69,13 +79,6 @@ article {
     border: none;
     cursor: pointer;
     margin-top: 20px;
-}
-
-section3 {
-
-    background-color: #131313;
-    padding: 50px 20px;
-    text-align: center;
 }
 
 .thingstodo h2 {
@@ -99,7 +102,7 @@ section3 {
 
 .image1 h3, .image2 h3, .image3 h3 {
     font-size: 18px;
-    color: #f4ce42;
+    color: #000000;
 }
 
 .button2 {
@@ -111,55 +114,109 @@ section3 {
     margin-top: 40px;
 }
 
-/* Rome Section */
-section4 {
-    background: url('assets/image/italy4.jfif') no-repeat center center/cover;
-    padding: 60px 20px;
+/* Section 4 */
+.section4 {
+    background: url('../assets/image/rome.jpg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
     text-align: center;
+    padding: 20px;
 }
 
-section4 h2 {
-    color: #f4ce42;
+.section4 h2 {
+    color: #000000;
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
-section4 p {
+.section4 p {
     max-width: 800px;
     margin: 20px auto;
     font-size: 18px;
-    color: #fff;
+    color: #000000;
 }
 
-section4 h3 {
+.section4 h3 {
     font-size: 24px;
-    color: #f4ce42;
+    color: #000000;
     margin-top: 30px;
 }
 
-section5 {
+/* Section 5 */
+
+.section5 {
+    background: url('../assets/image/italy10.webp') no-repeat center center / cover;
     background-color: #1a1a1a;
-    padding: 50px 20px;
+    height: 110vh;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
     text-align: center;
+    padding: 50px 20px;
 }
 
-section5 h3 {
+.section5 h3 {
     color: #f4ce42;
     font-size: 24px;
 }
 
-section5 p {
+.section5 p {
     font-size: 16px;
     color: #fff;
 }
 
-/* Review Section */
-section6 {
-    background: url('assets/image/italy6.jpg') no-repeat center center/cover;
-    padding: 60px 20px;
+/* Info section of section 5 */
+.info {
+    background-color: black;
+    color: #f4ce42; 
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+
+
+.info p {
+    font-size: 24px; 
+    margin: 0;
+}
+
+.info {
+    font-size: 16px; 
+    margin-top: 5px;
+    color: white; 
+}
+
+/* section 6 */
+.section6 {
+    background: url('../assets/image/italy6.jpg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section 7 */
+.section7 {
+    display: flex; 
+    height: 50vh; 
+
+}
+
+
 
 .Review {
     background-color: rgba(0, 0, 0, 0.7);
@@ -167,6 +224,9 @@ section6 {
     display: inline-block;
     border-radius: 10px;
     color: #fff;
+    max-width: 700px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .Review img {
@@ -176,8 +236,8 @@ section6 {
 }
 
 .Review p {
-    max-width: 700px;
-    margin: 0 auto 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .Review h3 {
@@ -185,9 +245,14 @@ section6 {
     font-size: 24px;
 }
 
-/* Footer Section */
+/* Footer */
 footer {
-    background-color: #131313;
+    background: url('../assets/image/gazing.jpg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -203,14 +268,24 @@ footer h3 {
     margin-bottom: 20px;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+/* Contact input stucture */
 .contact input, .contact textarea {
     width: 100%;
-    max-width: 400px;
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .contact button {
@@ -219,5 +294,11 @@ footer h3 {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    font-size: 16px;
     margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #d4b038;
 }
